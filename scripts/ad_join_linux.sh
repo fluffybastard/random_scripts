@@ -252,7 +252,6 @@ function white_list {
     # -- Deny all user access after initial realm join
     realm deny --all
 
-
     for (( i = 0; i < ${#WHITE_LIST[@]}; i++ )); do
         echo "realm permit ${WHITE_LIST[${i}]}@DOMAIN.COM"
         realm permit ${WHITE_LIST[${i}]}@DOMAIN.COM
