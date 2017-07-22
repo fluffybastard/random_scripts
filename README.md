@@ -2,6 +2,7 @@
 
 Scripts:
 - ansible_cfg.sh
+- ad_join_linux.sh
 
 ---
 
