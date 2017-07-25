@@ -13,4 +13,4 @@ __Descriptions:__
 - ad_join_linux.sh
   - configure a Linux client for Active Directory integration using Kerberos and SSSD
 - rh_parted.sh
-  - RedHat exercise script to create two LVM partitions from two given disks using `parted`
+  - RedHat exercise script to create two LVM partitions from two uninitialized disks using `parted`
